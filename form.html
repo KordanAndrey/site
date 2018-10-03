@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+   <title>Регистрация</title>
+   <link rel='stylesheet' href='style.css'>
+   <meta charset="utf-8">
+   </head>
+
+   <body>
+   <h1>AutoRia</h1>
+   <h2>Форма регистрации</h2>
+   <form action="#" metod="get" id="form" valide>
+        <p>
+            <span>Имя:</span> <input type="text" name="name" required>
+        </p>
+        <p>
+            <span>Фамилия:</span> <input type="text" name="surname" required>
+        </p>
+        <p>
+            <span>Город:</span> <input type="text" name="city" required>
+        </p>
+        <p>
+            <span>Эл.почта:</span> <input type="email" name="email" required>
+        </p>
+		<p>
+            <span>Телефон:</span> <input type="tel" name="phone" placeholder="+38(063)1112233" required>
+        </p>
+		<p><span>Тип транспорта:</span>
+            <select>
+			<option>Автомобиль</option>
+			<option>Мотоцикл</option>
+			<option>Мопед</option>
+			<option>Квадроцикл</option>
+			</select>
+        </p>
+		<p><span>Тип кузова:</span>
+            <select>
+			<option>Седан</option>
+			<option>Универсал</option>
+			<option>Хэтчбэк</option>
+			<option>Купе</option>
+			<option>Микроавтобус</option>
+			<option>Минивэн</option>
+			<option>Лимузин</option>
+			</select>
+        </p>
+		<p><span>Марка:</span>
+            <select>
+			<option>Audi</option>
+			<option>Ford</option>
+			<option>BMW</option>
+			<option>Citroen</option>
+			<option>Ferrari</option>
+			<option>Fiat</option>
+			<option>Jaguar</option>
+			</select>
+        </p>
+		<p>
+            <span>Год выпуска:</span> <input type="number" name="year" required>
+        </p>
+		<p>
+            <span>Модификации:</span> <input type="text" name="modification">
+        </p>
+		<p>
+            <span>Пробег:</span> <input type="number" name="km" required><span>тыс.км</span>
+        </p>
+		<p>
+            <span>Цена:</span> <input type="number" name="$" required><span>$</span>
+        </p>
+        <p>
+            <span>Пароль:</span> <input type="password" name="password" required>
+        </p>
+        <p>
+            <span>Повторите:</span> <input type="password" name="password" required>
+        <p>
+		<input type="checkbox" name="car" value="check1">Нерастаможенный<Br>
+   <input type="checkbox" name="car" value="check2">Возможен торг<Br>
+   <input type="checkbox" name="car" value="check3">Возможен обмен</p>
+        <p>
+            Введите число с картинки
+        </p>
+        <p> 
+            <span>1111</span>  <input type="text" name="cod" required>
+        </p>
+    </form>
+    
+    <div>
+        <button type="submit" form="form">
+            Зарегистрироваться
+        </button>
+    </div>
+   </body>

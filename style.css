@@ -1,0 +1,46 @@
+
+h1{
+	font-family: "Garamond", Serif;
+	font-size: 40px;
+	color: rgb(70, 130, 180);
+}
+h2{
+	font-family: "Garamond", Serif;
+	font-size: 30px;
+	color: rgb(170, 13, 18);
+}
+form{
+    width: 100%;
+    border:1px solid #ccc;
+}
+
+p{
+    margin:15px;
+    font-weight: 500;
+    position:relative
+}
+
+span{
+    width: 150px;
+    display:inline-block;
+}
+
+input{
+    font-weight: 700;
+    padding:3px 5px;
+}
+
+div{
+    padding:25px 175px;
+    margin:25px 0;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+button{
+    background-image:linear-gradient(to bottom, #33c433, #00e400);
+    color:#fff;
+    padding:3px 15px;
+    border-radius:25px;
+    box-shadow: 0 0 1px 1px rgb(0,255,0) inset;
+}
